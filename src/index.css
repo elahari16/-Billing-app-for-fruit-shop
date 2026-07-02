@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", "Noto Sans Tamil", system-ui, sans-serif;
+  background-color: #f0fdf4;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #bill-preview,
+  #bill-preview * {
+    visibility: visible;
+  }
+  #bill-preview {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+  }
+}
