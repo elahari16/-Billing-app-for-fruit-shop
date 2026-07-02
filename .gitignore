@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 
-mobile/
 .claude/
 
 # Editor directories and files

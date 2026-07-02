@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "P.R.E Fruits Billing",
+    "slug": "pre-fruits-billing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.prefruits.billing",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.prefruits.billing",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
